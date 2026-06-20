@@ -19,7 +19,7 @@ export default function InputForm({
     try {
 
       const response = await fetch(
-        "http://localhost:5050/api/ask",
+        "https://triai-backend.onrender.com/api/ask",
         {
           method: "POST",
           headers: {

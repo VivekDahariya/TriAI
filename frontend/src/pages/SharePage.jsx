@@ -12,7 +12,7 @@ export default function SharePage() {
     const loadComparison = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5050/api/share/${id}`
+          `https://triai-backend.onrender.com/api/share/${id}`
         );
 
         const data = await response.json();

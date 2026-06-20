@@ -28,7 +28,7 @@ function Home() {
     try {
 
       const response = await fetch(
-        "http://localhost:5050/api/share",
+        "https://triai-backend.onrender.com/api/share",
         {
           method: "POST",
           headers: {
